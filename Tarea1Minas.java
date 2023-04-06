@@ -27,8 +27,6 @@ public class Tarea1Minas {
          */
         Scanner scanner = new Scanner(System.in);
 
-        int dificultad = scanner.nextInt();
-
         int numMinas = 0;
 
         int intentos = 0;
@@ -38,7 +36,8 @@ public class Tarea1Minas {
          */
         System.out.println("¡Bienvenido al juego de Campo Minado!");
 
-        System.out.print("Ingrese la dificultad (1 = Fácil, 2 = Medio, 3 = Difícil): -> ");
+        System.out.println("Ingrese la dificultad (1 = Fácil, 2 = Medio, 3 = Difícil): -> ");
+        int dificultad = scanner.nextInt();
 
         switch (dificultad) {
             case 1:
